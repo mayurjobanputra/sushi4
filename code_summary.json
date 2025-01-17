@@ -1,0 +1,42 @@
+{
+  "directories": [
+    "src/",
+    "src/components/",
+    "src/pages/",
+    "src/types/",
+    "src/store/",
+    "src/data/"
+  ],
+  "files": [
+    "src/App.tsx",
+    "src/components/Cart.tsx",
+    "src/components/Header.tsx",
+    "src/components/ModeToggle.tsx",
+    "src/components/SushiCard.tsx",
+    "src/components/SushiGrid.tsx",
+    "src/pages/Home.tsx",
+    "src/types/index.ts",
+    "src/store/useStore.ts",
+    "src/data/sushi.ts"
+  ],
+  "components": [
+    "App",
+    "Cart",
+    "Header",
+    "ModeToggle",
+    "SushiCard",
+    "SushiGrid",
+    "Home"
+  ],
+  "interfaces": [
+    "Sushi",
+    "CartItem",
+    "OrderFormData",
+    "StoreState",
+    "SushiCardProps",
+    "SushiGridProps"
+  ],
+  "stores": [
+    "useStore"
+  ]
+}
